@@ -182,7 +182,7 @@ form{
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width:570px){
     .HomeContainer{
             margin-top: 0.8rem;
             height: 86vh;
@@ -191,7 +191,7 @@ form{
     height: 2rem;
     margin-left:1rem;
     border:.5px solid rgba(0, 0, 0, 0.614);
-    width: 60%;
+    width: 57%;
     border-radius: 0.5rem;
     padding: 10px;
     outline: 1;
