@@ -182,38 +182,9 @@ form{
     }
 }
 
-@media (min-width: 400px) and (max-width:570px){
-    .HomeContainer{
-            margin-top: 0.8rem;
-            height: 86vh;
-    }
-    .HomeContainer .title input{
-    height: 2rem;
-    margin-left:1rem;
-    border:.5px solid rgba(0, 0, 0, 0.614);
-    width: 57%;
-    border-radius: 0.5rem;
-    padding: 10px;
-    outline: 1;
-}
-.HomeContainer .title{
-    justify-content: space-between;
-}
-.HomeContainer .title button{
-    height: fit-content;
-    width:fit-content;
-    font-size: 1rem;
-    /* border: 1px solid none; */
-    margin-right: 1rem;
-    border: radius 0.7rem;
-    background-color: #1945D1;
-    color: white;
-      padding: 10px;
-}
-.HomeContainer .content .content-body textarea{
-    font-size: 1.1rem;
-}
-}
+
+
+
 @media (min-width: 570px){
     .HomeContainer .title input{
         width: 70vw;
@@ -248,4 +219,36 @@ form{
 
     }
     
+}
+@media (min-width: 400px) and (max-width:700px){
+    .HomeContainer{
+            margin-top: 0.8rem;
+            height: 86vh;
+    }
+    .HomeContainer .title input{
+    height: 2rem;
+    margin-left:1rem;
+    border:.5px solid rgba(0, 0, 0, 0.614);
+    width: 54%;
+    border-radius: 0.5rem;
+    padding: 10px;
+    outline: 1;
+}
+.HomeContainer .title{
+    justify-content: space-between;
+}
+.HomeContainer .title button{
+    height: fit-content;
+    width:fit-content;
+    font-size: 0.8rem;
+    /* border: 1px solid none; */
+    margin-right: 1rem;
+    border: radius 0.7rem;
+    background-color: #1945D1;
+    color: white;
+      padding: 10px;
+}
+.HomeContainer .content .content-body textarea{
+    font-size: 1.1rem;
+}
 }
